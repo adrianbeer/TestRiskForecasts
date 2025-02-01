@@ -1,0 +1,16 @@
+
+#' test_risk_forecast
+#'
+#' @param t name of the test
+#' @param l losses (a large loss is a large POSITIVE number)
+#' @param q quantile forcassts
+#' @param es expected shortfall
+#'
+#' @return test statistic which is designed to reject for large positive values in case
+#' a one sided test ist used
+#' @export
+#'
+#' @examples
+test_risk_forecast <- function(t, l, q, es, ...) {
+    return()
+}
